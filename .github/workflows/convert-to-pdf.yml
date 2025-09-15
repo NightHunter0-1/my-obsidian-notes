@@ -20,13 +20,9 @@ jobs:
         run: |
           mkdir -p pdf_output
           find . -name "*.md" -type f | while read -r file; do
-            # Экранируем спецсимволы и пробелы в путях
-            safe_file=$(printf '%q' "$file")
-            # Создаем безопасное имя для PDF (заменяем запрещенные символы на подчеркивания)
-            pdf_basename=$(basename "$file" .md | tr ' :' '__')
+            pdf_basename=$(basename "$file" .md | tr ' ' '_' | tr -d ':')
             pdf_name="pdf_output/${pdf_basename}.pdf"
             echo "Converting $file to $pdf_name"
-            # Используем кавычки для путей
             pandoc "$file" -o "$pdf_name" --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V geometry:margin=1in
           done
 
