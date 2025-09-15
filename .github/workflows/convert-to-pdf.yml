@@ -23,18 +23,13 @@ jobs:
             pdf_basename=$(basename "$file" .md | tr ' ' '_' | tr -d ':')
             pdf_name="pdf_output/${pdf_basename}.pdf"
             echo "Converting $file to $pdf_name"
-            # Пропускаем файлы с ошибками YAML и продолжаем работу
-            if ! pandoc "$file" -o "$pdf_name" --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V geometry:margin=1in 2>/dev/null; then
-              echo "ERROR: Failed to convert $file - skipping"
-              rm -f "$pdf_name"
-            fi
+            pandoc "$file" -o "$pdf_name" --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V geometry:margin=1in
           done
-          
-        - name: Upload PDFs to repository
+
+      - name: Upload PDFs to repository
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Добавляем аутентификацию через PAT
           git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
           git add pdf_output/
           if ! git diff --staged --quiet; then
