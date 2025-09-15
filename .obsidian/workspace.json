@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "78bbcedd0b6d6682",
@@ -183,14 +182,15 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "6116e9ce96f96523",
+  "active": "235fd1ef2485e1a7",
   "lastOpenFiles": [
+    "Без названия 2.base",
+    "Менеджмент. Управление организацией (предприятием)/Лекция 2 15.09.2025.md",
     "Без названия.base",
     "Excalidraw/Drawing 2025-09-15 23.00.36.excalidraw.md",
     "Без названия 1.base",
     "Менеджмент. Управление организацией (предприятием)/Менеджмент 01.09.2025.md",
     "Папка для проверки/Проверка.md",
-    "Менеджмент. Управление организацией (предприятием)/Лекция 2 15.09.2025.md",
     "Excalidraw/Screenshot_2025-09-15-17-27-16-232_com.orion.notein.global.png",
     "Excalidraw/Screenshot_2025-09-15-16-59-02-525_com.orion.notein.global.png",
     "Excalidraw/Drawing 2025-09-15 17.31.04.excalidraw 1.png",
@@ -198,7 +198,6 @@
     "История экономических учений/Лекция 2 10.09.2025.md",
     "Папка для проверки",
     "Без названия 3.base",
-    "Без названия 2.base",
     "Английский язык/Без названия.md",
     "Drawing 2025-09-15 17.31.04.excalidraw 1.png",
     "Screenshot_2025-09-15-17-27-16-232_com.orion.notein.global.png",
