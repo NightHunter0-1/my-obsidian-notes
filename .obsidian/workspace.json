@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "87573f40ef1d26ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d1ea8ceb3d24c5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6116e9ce96f96523",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Без названия 3.base",
+                "viewName": "Таблица"
+              },
+              "icon": "lucide-table",
+              "title": "Без названия 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c4f12c9b05880585",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea9b57ebea1a38fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "235fd1ef2485e1a7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "652a022a86de83fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "33f14b9ba23274ee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "78bbcedd0b6d6682",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f66c9b6954d6856",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05612f314dad6f25",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Добро пожаловать.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Добро пожаловать"
+            }
+          },
+          {
+            "id": "1df1766da50e8102",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Добро пожаловать.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Добро пожаловать"
+            }
+          },
+          {
+            "id": "87f233341f5f47db",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "306e03da3f79c9c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Добро пожаловать.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Добро пожаловать"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Создать новую базу": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "235fd1ef2485e1a7",
+  "lastOpenFiles": [
+    "Без названия 2.base",
+    "Без названия 3.base",
+    "Без названия 1.base",
+    "Английский язык/Без названия.md",
+    "Drawing 2025-09-15 17.31.04.excalidraw 1.png",
+    "Screenshot_2025-09-15-17-27-16-232_com.orion.notein.global.png",
+    "Screenshot_2025-09-15-16-59-02-525_com.orion.notein.global.png",
+    "Drawing 2025-09-15 17.31.04.excalidraw.png",
+    "Деньги. Кредит. Банки/Лекция 2 03.09 10.09.md",
+    "История экономических учений/Семинар 2 15.09.2025.md",
+    "Excalidraw/Drawing 2025-09-15 17.31.04.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-15 17.31.04.excalidraw.png",
+    "Менеджмент. Управление организацией (предприятием)/Лекция 15.09.2025.md",
+    "Excalidraw",
+    "Деньги. Кредит. Банки/Лекция 1 03.09.md",
+    "Менеджмент. Управление организацией (предприятием)/Лекция 1 08.09.2025.md",
+    "Менеджмент. Управление организацией (предприятием)/Менеджмент 01.09.2025.md",
+    "Без названия.base",
+    "История экономических учений/Семинар 1 01.09.2025.md",
+    "История экономических учений/Лекция 2 10.09.2025.md",
+    "История экономических учений/Лекция 1 03.09.2025.md",
+    "Деньги. Кредит. Банки/Семинар 03.09.2025.md",
+    "Вексель.md",
+    "Определители и их свойства. Операции над транспонированной матрицей.md",
+    "Основные понятия. Линейные операции над матрицам.md",
+    "Перестановки и их знаки. Транспозиция меняет знак перестановок.md",
+    "Функции денег.md",
+    "Без названия.canvas",
+    "Введение в специальность/Лекция 1 03.09.2025.md",
+    "Экономика организации (Предприятия)/Лекция 1 04.09.2025.md",
+    "Микроэкономика Экономическая теория Микроэкономика/Лекция 2 11.09.2025.md",
+    "Микроэкономика Экономическая теория Микроэкономика/Лекция 1 04.09.2025.md",
+    "Правовое регулирование предпринимательской деятельности/Лекция 2 08.09.2025.md",
+    "Микроэкономика Экономическая теория Микроэкономика/Семинар 1 04.09.2025.md",
+    "Правовое регулирование предпринимательской деятельности/Семинар 1 09.09.2025.md",
+    "Деньги. Кредит. Банки",
+    "Введение в специальность",
+    "Экономика организации (Предприятия)",
+    "Микроэкономика Экономическая теория Микроэкономика",
+    "Линейная алгебра/Без названия/Основные понятия. Линейные операции над матрицами.md",
+    "Управление организацией (предприятием)",
+    "Теория вероятностей и математическая статистика"
+  ]
+}
