@@ -10,8 +10,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Setup Pandoc and LaTeX (with Russian support)
+      - name: Setup Pandoc and LaTeX
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-lang-cyrillic
@@ -23,22 +25,33 @@ jobs:
             pdf_basename=$(basename "$file" .md | tr ' ' '_' | tr -d ':')
             pdf_name="pdf_output/${pdf_basename}.pdf"
             echo "Converting $file to $pdf_name"
-            # Пропускаем файлы с ошибками YAML и продолжаем работу
-            if ! pandoc "$file" -o "$pdf_name" --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V geometry:margin=1in 2>/dev/null; then
-              echo "ERROR: Failed to convert $file - skipping (probably YAML error)"
+            
+            # Пропускаем файлы с ошибками
+            if ! pandoc "$file" -o "$pdf_name" --pdf-engine=xelatex \
+                 -V mainfont="DejaVu Serif" -V geometry:margin=1in 2>/tmp/pandoc-error; then
+              echo "ERROR: Failed to convert $file"
+              cat /tmp/pandoc-error
               rm -f "$pdf_name"
             fi
           done
 
       - name: Upload PDFs to repository
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
+          
+          # Устанавливаем аутентификацию
+          git remote set-url origin https://$PAT_TOKEN@github.com/${{ github.repository }}.git
+          
+          # Добавляем только PDF файлы
           git add pdf_output/
-          if ! git diff --staged --quiet; then
+          
+          # Коммитим только если есть изменения
+          if [ -n "$(git status --porcelain pdf_output)" ]; then
             git commit -m "CI: Auto-generate PDFs from Markdown"
-            git push
+            git push origin HEAD:main
           else
-            echo "No changes to PDFs to commit."
+            echo "No PDF changes to commit"
           fi
