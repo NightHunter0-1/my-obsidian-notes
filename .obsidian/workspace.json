@@ -11,10 +11,14 @@
             "id": "6116e9ce96f96523",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Предметы/История экономических учений/Семинар 2 15.09.2025.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Семинар 2 15.09.2025"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -166,20 +170,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Создать новую базу": false,
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "235fd1ef2485e1a7",
+  "active": "6116e9ce96f96523",
   "lastOpenFiles": [
+    "Без названия.md",
+    "Excalidraw/History of econimic.excalidraw.md",
+    "Templates/Семинара.md",
+    "Без названия.canvas",
+    "Templates/Лекция.md",
+    "Excalidraw/Drawing 2025-09-16 13.42.40.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-16 14.06.46.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-16 13.56.57.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-16 13.55.01.excalidraw.md",
+    "Предметы/Макроэкономика ",
     "Предметы/Деньги. Кредит. Банки/Семинар 03.09.2025.md",
     "Предметы/Деньги. Кредит. Банки/Лекция 2 03.09 10.09.md",
     "Предметы/Введение в специальность/Лекция 1 03.09.2025.md",
@@ -192,7 +207,6 @@
     "Excalidraw/Drawing 2025-09-16 00.01.50.excalidraw.md",
     "Excalidraw/Drawing 2025-09-15 23.58.29.excalidraw.md",
     "Excalidraw/Drawing 2025-09-15 23.56.54.excalidraw.md",
-    "Без названия.md",
     "Excalidraw/Excalidraw.md",
     "Предметы/Предметы.md",
     "Предметы/Управление организацией (предприятием)/Untitled.md",
@@ -202,20 +216,12 @@
     "Templates/Шаблон лекции.md",
     "Предметы/Папка для проверки/Проверка.md",
     "Предметы/Линейная алгебра/Без названия/Транспонирование матриц. Свойства.md",
-    "Templates/Без названия.md",
-    "Предметы/Линейная алгебра/Билеты.md",
-    "Предметы/Английский язык/Без названия.md",
-    "Предметы/История экономических учений/Лекция 2 10.09.2025.md",
-    "Предметы/История экономических учений/Лекция 1 03.09.2025.md",
-    "Предметы/История экономических учений/Семинар 1 01.09.2025.md",
-    "Предметы/Экономика организации (Предприятия)/Лекция 1 04.09.2025.md",
     "Предметы/Линейная алгебра/Без названия",
     "Предметы/История экономических учений/Деньги. Кредит. Банки",
     "Предметы/История экономических учений/Введение в специальность",
     "Предметы/Базы данных и экспертные системы",
     "Предметы/Английский язык",
     "Предметы/Линейная алгебра",
-    "Предметы/Папка для проверки",
     "Excalidraw/Screenshot_2025-09-15-17-27-16-232_com.orion.notein.global.png",
     "Excalidraw/Screenshot_2025-09-15-16-59-02-525_com.orion.notein.global.png",
     "Excalidraw/Drawing 2025-09-15 17.31.04.excalidraw 1.png",
@@ -223,7 +229,6 @@
     "Screenshot_2025-09-15-17-27-16-232_com.orion.notein.global.png",
     "Screenshot_2025-09-15-16-59-02-525_com.orion.notein.global.png",
     "Drawing 2025-09-15 17.31.04.excalidraw.png",
-    "Excalidraw/Drawing 2025-09-15 17.31.04.excalidraw.png",
-    "Без названия.canvas"
+    "Excalidraw/Drawing 2025-09-15 17.31.04.excalidraw.png"
   ]
 }
