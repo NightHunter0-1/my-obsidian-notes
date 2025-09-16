@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4d1ea8ceb3d24c5e",
+        "id": "5ffbe952d48486af",
         "type": "tabs",
         "children": [
           {
-            "id": "6116e9ce96f96523",
+            "id": "281b613866e4be25",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,10 +183,13 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "6116e9ce96f96523",
+  "active": "281b613866e4be25",
   "lastOpenFiles": [
-    "Без названия.canvas",
+    "Drawing 2025-09-15 17.31.04.excalidraw.md",
     "Предметы/История экономических учений/Семинар 2 15.09.2025.md",
+    "Drawing.md",
+    "Excalidraw/Drawing 2025-09-15 17.31.04.excalidraw.png",
+    "Без названия.canvas",
     "Без названия.md",
     "Excalidraw/History of econimic.excalidraw.md",
     "Templates/Семинара.md",
@@ -214,7 +217,6 @@
     "Tags",
     "Excalidraw/Drawing 2025-09-15 23.29.06.excalidraw.md",
     "Templates/Шаблок семинара.md",
-    "Templates/Шаблон лекции.md",
     "Предметы/Линейная алгебра/Без названия",
     "Предметы/История экономических учений/Деньги. Кредит. Банки",
     "Предметы/История экономических учений/Введение в специальность",
@@ -227,7 +229,6 @@
     "Drawing 2025-09-15 17.31.04.excalidraw 1.png",
     "Screenshot_2025-09-15-17-27-16-232_com.orion.notein.global.png",
     "Screenshot_2025-09-15-16-59-02-525_com.orion.notein.global.png",
-    "Drawing 2025-09-15 17.31.04.excalidraw.png",
-    "Excalidraw/Drawing 2025-09-15 17.31.04.excalidraw.png"
+    "Drawing 2025-09-15 17.31.04.excalidraw.png"
   ]
 }
