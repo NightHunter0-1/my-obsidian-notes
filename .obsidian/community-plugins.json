@@ -3,5 +3,8 @@
   "highlightr-plugin",
   "obsidian-git",
   "obsidian-advanced-slides",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "templater-obsidian",
+  "quickadd",
+  "dataview"
 ]
