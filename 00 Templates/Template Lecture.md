@@ -1,26 +1,13 @@
 ---
-subject: "{{subject}}"
-type: lecture
-date: {{date:YYYY-MM-DD}}
+subject: 
 lecture_number: 
-tags: [lecture, {{subject}}]
-links: []
+date: {{date}}
+tags: [lecture]
 ---
 
-# Лекция {{lecture_number}} - {{date:DD.MM.YY}}
+# Лекция <% tp.frontmatter.lecture_number %> - <% tp.date.now("DD.MM.YY") %>
 
-## 📝 Конспект
+**Предмет:** [[<% tp.frontmatter.subject %>]]
 
-## 🔑 Ключевые понятия
-- 
+## Конспект
 
-## ❓ Вопросы для размышления
-- 
-
-## 🔗 Связи
-- Связанные лекции: 
-- Смежные темы: 
-- Другие предметы: 
-
-## 📎 Приложения
-- 
