@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Предметы/Введение в специальность/Лекция 1 03.09.2025.md",
+                "file": "00 Templates/scripts/Template Lecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Лекция 1 03.09.2025"
+              "title": "Template Lecture"
             }
           }
         ]
@@ -186,11 +186,11 @@
   },
   "active": "235fd1ef2485e1a7",
   "lastOpenFiles": [
+    "01 Предметы/Введение в специальность/Лекция 1 03.09.2025.md",
     "00 Templates/scripts",
     "00 Templates/scripts/Template Lecture.md",
     "00 Templates/scripts/Template Course.md",
     "01 Предметы/Деньги. Кредит. Банки/Лекция 1 03.09.md",
-    "01 Предметы/Введение в специальность/Лекция 1 03.09.2025.md",
     "{{course}}.md",
     "01 Предметы/История экономических учений/Лекция 3 17.09.2025.md",
     "01 Предметы/История экономических учений/Семинар 1 01.09.2025.md",
@@ -225,7 +225,6 @@
     "Предметы/История экономических учений/Введение в специальность",
     "01 Предметы/Базы данных и экспертные системы",
     "01 Предметы/Английский язык",
-    "01 Предметы/Линейная алгебра",
     "Excalidraw/Screenshot_2025-09-15-17-27-16-232_com.orion.notein.global.png",
     "Excalidraw/Screenshot_2025-09-15-16-59-02-525_com.orion.notein.global.png",
     "Drawing 2025-09-15 17.31.04.excalidraw 1.png",

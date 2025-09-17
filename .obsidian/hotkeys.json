@@ -1,15 +1,3 @@
-{
-  "workspace:export-pdf": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "Q"
-    }
-  ]
-}
-
 [
   {
     "command": "templater:create-new-note-from-template",
