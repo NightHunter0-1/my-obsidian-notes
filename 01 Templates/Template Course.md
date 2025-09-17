@@ -1,8 +1,9 @@
 ---
 type: course
-semester: 
-tags: [course]
-professor: 
+semester:
+tags:
+  - course
+professor:
 links: []
 ---
 
