@@ -11,12 +11,14 @@
             "id": "d3b9e112545357c4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "02 Excalidraw/History of econimic.excalidraw.png"
+                "file": "00 Templates/Template Lecture.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "History of econimic.excalidraw"
+              "icon": "lucide-file",
+              "title": "Template Lecture"
             }
           }
         ]
@@ -182,8 +184,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "235fd1ef2485e1a7",
+  "active": "d3b9e112545357c4",
   "lastOpenFiles": [
+    "02 Excalidraw/History of econimic.excalidraw.png",
     "02 Excalidraw/Drawing 2025-09-16 14.06.46.excalidraw.md",
     "02 Excalidraw/Drawing 2025-09-16 13.56.57.excalidraw.md",
     "02 Excalidraw/Drawing 2025-09-16 13.55.01.excalidraw.png",
@@ -212,10 +215,8 @@
     "01 Предметы/История экономических учений/Лекция 1 03.09.2025.md",
     "01 Предметы/История экономических учений/Семинар 1 01.09.2025.md",
     "01 Предметы/История экономических учений/Семинар 2 15.09.2025.md",
-    "01 Предметы/История экономических учений/лекция 4 24.09.2025.md",
     "Введение в специальность",
     "00 Templates/scripts",
-    "02 Excalidraw/History of econimic.excalidraw.png",
     "Без названия.canvas",
     "01 Предметы/Макроэкономика ",
     "01 Предметы/Деньги. Кредит. Банки",
