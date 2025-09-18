@@ -11,10 +11,12 @@
             "id": "d3b9e112545357c4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "image",
+              "state": {
+                "file": "Drawing 2025-09-18 10.17.38.excalidraw.png"
+              },
+              "icon": "lucide-image",
+              "title": "Drawing 2025-09-18 10.17.38.excalidraw"
             }
           }
         ]
@@ -180,19 +182,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d3b9e112545357c4",
+  "active": "235fd1ef2485e1a7",
   "lastOpenFiles": [
+    "Drawing 2025-09-18 14.49.41.excalidraw.png",
+    "IMG_20250918_103403_373.jpg",
+    "IMG_20250918_103840_627.jpg",
+    "Screenshot_2025-09-18-10-14-33-535_com.android.chrome.png",
     "1000021527.png",
     "1000021526.png",
     "1000021525.png",
-    "1000021523.png",
     "1000021524.png",
+    "1000021523.png",
     "1000021522.png",
     "1000021519.png",
-    "IMG_20250918_103449_569.jpg",
-    "1000021517.png",
-    "1000021494.png",
-    "1000021513.png",
     "Excalidraw/Ecorg table 3.excalidraw.md",
     "Excalidraw/Ecorg table 2.excalidraw.md",
     "Excalidraw/Ecoerg table 1.excalidraw.md",
