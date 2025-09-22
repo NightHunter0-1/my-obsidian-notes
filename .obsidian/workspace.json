@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Drawing 2025-09-18 10.17.38.excalidraw.png"
+                "file": "1000021486.png"
               },
               "icon": "lucide-image",
-              "title": "Drawing 2025-09-18 10.17.38.excalidraw"
+              "title": "1000021486"
             }
           }
         ]
@@ -182,8 +182,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "235fd1ef2485e1a7",
+  "active": "d3b9e112545357c4",
   "lastOpenFiles": [
+    "1000021493.png",
+    "1000021513.png",
+    "Drawing 2025-09-18 10.17.38.excalidraw.png",
     "Drawing 2025-09-18 14.49.41.excalidraw.png",
     "IMG_20250918_103403_373.jpg",
     "IMG_20250918_103840_627.jpg",
@@ -192,9 +195,6 @@
     "1000021526.png",
     "1000021525.png",
     "1000021524.png",
-    "1000021523.png",
-    "1000021522.png",
-    "1000021519.png",
     "Excalidraw/Ecorg table 3.excalidraw.md",
     "Excalidraw/Ecorg table 2.excalidraw.md",
     "Excalidraw/Ecoerg table 1.excalidraw.md",
