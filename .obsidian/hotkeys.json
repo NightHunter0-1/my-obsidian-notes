@@ -1,0 +1,12 @@
+[
+  {
+    "command": "templater:create-new-note-from-template",
+    "keys": ["Ctrl+Shift+Z"],
+    "context": ["*"]
+  },
+  {
+    "command": "templater:insert-template",
+    "keys": ["Ctrl+Shift+T"], 
+    "context": ["editor"]
+  }
+]

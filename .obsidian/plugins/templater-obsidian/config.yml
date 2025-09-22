@@ -1,0 +1,16 @@
+template_folder: "00 Templates"
+date_format: "YYYY-MM-DD"
+time_format: "HH:mm"
+enable_system_commands: false
+enable_ribbon_icon: true
+enable_quick_switcher: true
+enable_editor_commands: true
+
+templates_pairs:
+  - ["{{date}}", "YYYY-MM-DD"]
+  - ["{{time}}", "HH:mm"]
+  - ["{{title}}", "moment().format('YYYY-MM-DD HH-mm')"]
+  - ["{{subject}}", ""]
+  - ["{{lecture_number}}", ""]
+
+user_scripts_folder: "00 Templates/scripts"
