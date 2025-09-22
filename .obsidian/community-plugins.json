@@ -6,5 +6,6 @@
   "obsidian-excalidraw-plugin",
   "templater-obsidian",
   "quickadd",
-  "dataview"
+  "dataview",
+  "wikilinks-to-mdlinks-obsidian"
 ]
