@@ -1,0 +1,36 @@
+# convert.ps1 - Скрипт для преобразования ссылок
+
+Write-Host "🔗 Конвертер Obsidian -> GitHub ссылок" -ForegroundColor Cyan
+Write-Host "==========================================" -ForegroundColor Gray
+
+# Проверяем наличие Python
+$pythonCommand = "python"
+if (Get-Command python -ErrorAction SilentlyContinue) {
+    $pythonCommand = "python"
+} elseif (Get-Command python3 -ErrorAction SilentlyContinue) {
+    $pythonCommand = "python3"
+} else {
+    Write-Host "❌ Python не найден! Установите Python с python.org" -ForegroundColor Red
+    pause
+    exit 1
+}
+
+Write-Host "🐍 Найден Python: $pythonCommand" -ForegroundColor Green
+
+# Запускаем преобразование
+Write-Host "🔄 Запускаю преобразование ссылок..." -ForegroundColor Yellow
+
+& $pythonCommand convert.py
+
+Write-Host ""
+Write-Host "✅ Преобразование завершено!" -ForegroundColor Green
+Write-Host "" 
+Write-Host "📝 Дальнейшие действия:" -ForegroundColor Cyan
+Write-Host "   1. Вернитесь в Obsidian" -ForegroundColor White
+Write-Host "   2. Дождитесь авто-синхронизации (или нажмите Ctrl+S)" -ForegroundColor White
+Write-Host "   3. Проверьте статус в правом нижнем углу Obsidian" -ForegroundColor White
+Write-Host ""
+
+# Ждем немного перед закрытием
+Write-Host "⏳ Закрытие через 10 секунд..." -ForegroundColor Gray
+Start-Sleep -Seconds 10

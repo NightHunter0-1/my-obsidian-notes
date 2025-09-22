@@ -180,8 +180,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d3b9e112545357c4",
+  "active": "a91f2eb0bd835c4f",
   "lastOpenFiles": [
+    "scripts/convert.bat",
+    "scripts/Текстовый документ.txt",
+    "scripts/Новая папка",
+    "scripts/convert.psl",
+    "scripts/convert.py",
+    "scripts",
+    "Новая папка",
     "04 PNG/1000021525.png",
     "04 PNG/1000021524.png",
     "04 PNG/1000021526.png",
@@ -192,7 +199,6 @@
     "04 PNG/1000021517.png",
     "04 PNG/1000021522.png",
     "04 PNG/1000021494.png",
-    "04 PNG/IMG_20250918_103840_627.jpg",
     "03 Excalidraw/Ecorg table 3.excalidraw.md",
     "03 Excalidraw/PravoTable1.excalidraw.md",
     "03 Excalidraw/Drawing 2025-09-18 13.07.10.excalidraw.md",
@@ -222,12 +228,6 @@
     "01 Предметы/Экономика организации (Предприятия)/Лекция 2 18.09.2025.md",
     "Excalidraw",
     "Введение в специальность",
-    "00 Templates/scripts",
-    "Без названия.canvas",
-    "01 Предметы/Макроэкономика ",
-    "01 Предметы/Деньги. Кредит. Банки",
-    "01 Предметы/Введение в специальность",
-    "Tags",
-    "01 Предметы/Линейная алгебра/Без названия"
+    "Без названия.canvas"
   ]
 }
