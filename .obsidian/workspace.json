@@ -181,13 +181,16 @@
       "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
   "active": "d3b9e112545357c4",
   "lastOpenFiles": [
-    "Лекция.md",
+    "Untitled.md",
+    "01 Предметы/Макроэкономика",
     "01 Предметы/Экономика организации (Предприятия)/Лекция 2 18.09.2025.md",
+    "Лекция.md",
     "01 Предметы/Экономика организации (Предприятия)/Лекция 2 11.09.2025.md",
     "01 Предметы/Экономика организации (Предприятия)/Лекция 1 04.09.2025.md",
     "01 Предметы/Экономика организации (Предприятия)/ДЗ 18.09.2025.md",
@@ -229,9 +232,6 @@
     "04 PNG",
     "03 Excalidraw",
     "03 Excalidraw/Ecorg table 3.excalidraw 1.md",
-    "03 Excalidraw/Ecorg table 2.excalidraw 1.md",
-    "03 Excalidraw/Ecoerg table 1.excalidraw 1.md",
-    "Excalidraw",
     "Без названия.canvas"
   ]
 }
