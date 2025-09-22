@@ -1,0 +1,15 @@
+# Obsidian
+.obsidian/
+.obsidian/plugins/
+.obsidian/workspace
+.obsidian/app.json
+.obsidian/workspace-mobile
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Резервные копии
+*.bak
+*~
