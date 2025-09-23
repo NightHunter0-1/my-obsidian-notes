@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "92f2c6cc516c039b",
+        "id": "26a64cdb56b5e001",
         "type": "tabs",
         "children": [
           {
-            "id": "d3b9e112545357c4",
+            "id": "3a138fe782a54e42",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -180,8 +180,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "235fd1ef2485e1a7",
+  "active": "3a138fe782a54e42",
   "lastOpenFiles": [
+    "my-obsidian-notes/02 Excalidraw/History of econimic.excalidraw.md",
+    "01 Предметы/Привет.md",
     "00 Templates/Template Lecture.md",
     "02 Excalidraw/History of econimic.excalidraw.png",
     "02 Excalidraw/Drawing 2025-09-16 14.06.46.excalidraw.md",
@@ -210,7 +212,6 @@
     "01 Предметы/Менеджмент. Управление организацией (предприятием)/Лекция 2 15.09.2025.md",
     "01 Предметы/История экономических учений/Лекция 1 03.09.2025.md",
     "01 Предметы/История экономических учений/Семинар 1 01.09.2025.md",
-    "01 Предметы/История экономических учений/Семинар 2 15.09.2025.md",
     "Введение в специальность",
     "00 Templates/scripts",
     "Без названия.canvas",
