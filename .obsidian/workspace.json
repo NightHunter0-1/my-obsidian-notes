@@ -11,10 +11,14 @@
             "id": "3a138fe782a54e42",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "my-obsidian-notes",
+                "bFile": "my-obsidian-notes",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: my-obsidian-notes"
             }
           }
         ]
