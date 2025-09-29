@@ -1,0 +1,27 @@
+---
+tags: subject
+created: {{date}}
+---
+
+# {{title}}
+
+## 📚 Описание предмета
+*Добавьте описание предмета здесь*
+
+## 📖 Лекции
+```dataview
+TABLE file.ctime as "Дата создания"
+FROM ""
+WHERE file.folder = this.file.folder AND file.name != this.file.name
+SORT file.name
+```
+
+## 🔗 Связи
+- **Преподаватель**:: 
+- **Семестр**:: 
+- **Статус**:: #active 
+
+## 📌 Быстрые заметки
+
+---
+*Автоматически создано {{date}}*
