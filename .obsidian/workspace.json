@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Макроэкономика.md",
+                "file": "Добро пожаловать.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Макроэкономика"
+              "title": "Добро пожаловать"
             }
           }
         ]
@@ -184,7 +184,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3a138fe782a54e42",
+  "active": "235fd1ef2485e1a7",
   "lastOpenFiles": [
     "Макроэкономика.md",
     "Мировая экономика.md",
