@@ -1,0 +1,33 @@
+{
+  "pdf_output_dir": "_pdf_export",
+  "exclude_patterns": [
+    ".git/",
+    ".github/", 
+    "_pdf_export/",
+    ".trash/",
+    "templates/",
+    "README.md",
+    "архив/",
+    "temp/",
+    "черновики/"
+  ],
+  "pandoc_settings": {
+    "pdf_engine": "xelatex",
+    "main_font": "DejaVu Serif",
+    "sans_font": "DejaVu Sans", 
+    "mono_font": "DejaVu Sans Mono",
+    "paper_size": "a4",
+    "margin": "2.5cm",
+    "language": "russian",
+    "toc": true,
+    "toc_depth": 3,
+    "number_sections": true
+  },
+  "retry_settings": {
+    "max_attempts": 2,
+    "fallback_methods": [
+      "simple_template",
+      "basic_latex"
+    ]
+  }
+}
