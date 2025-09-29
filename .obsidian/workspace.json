@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "создайте ссылку.md",
+                "file": "01 Предметы/Экономика организации (Предприятия)/Экономика организаций.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "создайте ссылку"
+              "title": "Экономика организаций"
             }
           }
         ]
@@ -184,8 +184,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "235fd1ef2485e1a7",
+  "active": "3a138fe782a54e42",
   "lastOpenFiles": [
+    "01 Предметы/Экономика организации (Предприятия)/Семинар 2.md",
+    "01 Предметы/Экономика организации (Предприятия)/Семинар 1 18.09.2025.md",
+    "01 Предметы/Экономика организации (Предприятия)/Лекция 3 18.09.2025.md",
+    "01 Предметы/Экономика организации (Предприятия)/Лекция 2 11.09.2025.md",
+    "01 Предметы/Экономика организации (Предприятия)/Лекция 1 04.09.2025.md",
+    "01 Предметы/Экономика организации (Предприятия)/Экономика организаций.md",
+    "01 Предметы/Деньги. Кредит. Банки/Деньги Кредит Банки.md",
+    "01 Предметы/Деньги. Кредит. Банки/Лекция 4 24.09.2025.md",
+    "01 Предметы/Деньги. Кредит. Банки/Семинар 03.09.2025.md",
+    "01 Предметы/Английский язык/Семинар 1.md",
+    "Мировая экономика.md",
+    "Добро пожаловать.md",
+    "01 Предметы/тест_предмет/Лекция 1.md",
+    "создайте ссылку.md",
     "Templates/Новая лекция.md",
     "Templates/Template Course.md",
     "Templates/Лекция шаблон.md",
@@ -214,24 +228,10 @@
     "02 Excalidraw/Ecorg table 3.excalidraw.md",
     "02 Excalidraw/Ecorg table 3.excalidraw 1.md",
     "02 Excalidraw/Ecorg table 2.excalidraw.md",
-    "02 Excalidraw/Ecorg table 2.excalidraw 1.md",
-    "02 Excalidraw/Ecoerg table 1.excalidraw.md",
-    "02 Excalidraw/Ecoerg table 1.excalidraw 1.md",
-    "02 Excalidraw/Drawing 2025-09-18 14.49.41.excalidraw.md",
-    "02 Excalidraw/Drawing 2025-09-18 13.07.10.excalidraw.md",
-    "02 Excalidraw/Drawing 2025-09-18 10.17.38.excalidraw.md",
-    "02 Excalidraw/Drawing 2025-09-18 10.17.38.excalidraw 1.md",
-    "02 Excalidraw/Drawing 2025-09-18 10.17.09.excalidraw.md",
-    "02 Excalidraw/Drawing 2025-09-18 10.16.48.excalidraw.md",
-    "02 Excalidraw/Drawing 2025-09-18 10.17.09.excalidraw 1.md",
-    "02 Excalidraw/Drawing 2025-09-18 10.16.48.excalidraw 1.md",
-    "02 Excalidraw/Drawing 2025-09-16 14.06.46.excalidraw.md",
     "02 Excalidraw",
     "01 Предметы/Управление организацией (предприятием)",
     "01 Предметы/Теория вероятностей и математическая статистика",
-    "01 Предметы/тест_предмет/Лекция 1.md",
     "01 Предметы/тест_предмет",
-    "01 Предметы/Экономика организации (Предприятия)/Экономика организаций.md",
     "Без названия.canvas"
   ]
 }
