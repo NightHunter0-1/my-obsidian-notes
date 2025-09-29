@@ -1,57 +1,182 @@
-name: Convert Markdown to PDF
+name: Convert Markdown to PDF with Russian Support
 
 on:
   push:
+    branches: [ main, master ]
+    paths: ['**.md']
+  workflow_dispatch:  # Ручной запуск
+  schedule:
+    - cron: '0 3 * * *'  # Ежедневно в 6:00 по Москве
 
 jobs:
-  convert:
+  convert-to-pdf:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
-      - name: Setup Pandoc and LaTeX
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-lang-cyrillic
+    - name: Setup LaTeX with FULL Russian support
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          pandoc \
+          texlive-xetex \
+          texlive-latex-recommended \
+          texlive-latex-extra \
+          texlive-fonts-recommended \
+          texlive-fonts-extra \
+          texlive-lang-cyrillic \
+          texlive-lang-european \
+          texlive-science \
+          latexmk \
+          fonts-liberation \
+          fonts-dejavu
 
-      - name: Convert MD to PDF
-        run: |
-          mkdir -p pdf_output
-          find . -name "*.md" -type f | while read -r file; do
-            pdf_basename=$(basename "$file" .md | tr ' ' '_' | tr -d ':')
-            pdf_name="pdf_output/${pdf_basename}.pdf"
-            echo "Converting $file to $pdf_name"
-            
-            # Пропускаем файлы с ошибками
-            if ! pandoc "$file" -o "$pdf_name" --pdf-engine=xelatex \
-                 -V mainfont="DejaVu Serif" -V geometry:margin=1in 2>/tmp/pandoc-error; then
-              echo "ERROR: Failed to convert $file"
-              cat /tmp/pandoc-error
-              rm -f "$pdf_name"
-            fi
-          done
+    - name: Create PDF directory structure
+      run: |
+        # Создаем корневую папку для PDF
+        mkdir -p _pdf_export
+        
+        # Копируем структуру папок
+        find . -type d -not -path "./.git/*" -not -path "./_pdf_export/*" -not -path "./.github/*" | while read dir; do
+          pdf_dir="_pdf_export/${dir#./}"
+          mkdir -p "$pdf_dir"
+          echo "Created directory: $pdf_dir"
+        done
 
-      - name: Upload PDFs to repository
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    - name: Convert MD to PDF with proper encoding
+      run: |
+        # Создаем custom LaTeX template для русского языка
+        cat > russian-template.tex << 'EOL'
+        \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$]{$documentclass$}
+        \usepackage{polyglossia}
+        \setdefaultlanguage{russian}
+        \setotherlanguage{english}
+        \usepackage{fontspec}
+        \setmainfont{DejaVu Serif}
+        \setsansfont{DejaVu Sans}
+        \setmonofont{DejaVu Sans Mono}
+        
+        \usepackage{xcolor}
+        \usepackage{hyperref}
+        \hypersetup{
+            colorlinks=true,
+            linkcolor=blue,
+            urlcolor=blue,
+            citecolor=blue
+        }
+        
+        \usepackage{geometry}
+        \geometry{a4paper, margin=2.5cm}
+        
+        \title{$title$}
+        \author{$author$}
+        \date{$date$}
+        
+        \begin{document}
+        
+        \maketitle
+        
+        $if(toc)$
+        \tableofcontents
+        \newpage
+        $endif$
+        
+        $body$
+        
+        \end{document}
+EOL
+
+        # Функция для безопасного конвертирования
+        convert_with_retry() {
+          local md_file="$1"
+          local relative_path="${md_file#./}"
+          local pdf_file="_pdf_export/${relative_path%.md}.pdf"
           
-          # Устанавливаем аутентификацию
-          git remote set-url origin https://$PAT_TOKEN@github.com/${{ github.repository }}.git
+          echo "🔧 Конвертируем: $md_file"
+          echo "📁 В PDF: $pdf_file"
           
-          # Добавляем только PDF файлы
-          git add pdf_output/
-          
-          # Коммитим только если есть изменения
-          if [ -n "$(git status --porcelain pdf_output)" ]; then
-            git commit -m "CI: Auto-generate PDFs from Markdown"
-            git push origin HEAD:main
-          else
-            echo "No PDF changes to commit"
+          # Пропускаем служебные файлы
+          if [[ "$md_file" == *"README.md" ]] || \
+             [[ "$md_file" == *".github/"* ]] || \
+             [[ "$md_file" == *"_pdf_export/"* ]] || \
+             [[ "$md_file" == *"/.trash/"* ]] || \
+             [[ "$md_file" == *"/templates/"* ]]; then
+            echo "⏭️  Пропускаем: $md_file"
+            return 0
           fi
+          
+          # Пытаемся конвертировать с разными настройками
+          set +e
+          pandoc "$md_file" \
+            -o "$pdf_file" \
+            --pdf-engine=xelatex \
+            --template=russian-template.tex \
+            -V lang=russian \
+            -V documentclass=article \
+            -V papersize=a4 \
+            --toc \
+            --toc-depth=3 \
+            -N \
+            --wrap=auto \
+            --verbose
+          
+          local result=$?
+          set -e
+          
+          if [ $result -eq 0 ]; then
+            echo "✅ Успешно: $pdf_file"
+          else
+            echo "❌ Ошибка конвертации: $md_file"
+            # Пробуем альтернативный метод
+            pandoc "$md_file" \
+              -o "$pdf_file" \
+              --pdf-engine=xelatex \
+              -V mainfont="DejaVu Serif" \
+              -V sansfont="DejaVu Sans" \
+              -V monofont="DejaVu Sans Mono" \
+              -V geometry:margin=2.5cm \
+              -V lang=russian \
+              --toc \
+              -N
+            echo "🔄 Использован альтернативный метод для: $md_file"
+          fi
+        }
+        
+        export -f convert_with_retry
+        
+        # Ищем и конвертируем все .md файлы
+        find . -name "*.md" -type f -not -path "./.git/*" -not -path "./_pdf_export/*" | \
+        while read file; do
+          convert_with_retry "$file"
+        done
+
+    - name: Clean up and validate
+      run: |
+        # Проверяем что PDF создались
+        echo "📊 Результаты конвертации:"
+        find _pdf_export -name "*.pdf" -type f | wc -l | xargs echo "Создано PDF файлов:"
+        
+        # Показываем структуру
+        echo "📁 Структура папок:"
+        tree _pdf_export -L 3 || find _pdf_export -type d | head -20
+
+    - name: Commit and push PDF files
+      run: |
+        git config --local user.email "pdf-converter@github.com"
+        git config --local user.name "PDF Converter Bot"
+        git config --local core.quotepath false  # Важно для русских имен!
+        
+        # Добавляем только PDF файлы
+        git add _pdf_export/
+        
+        if ! git diff --staged --quiet; then
+          git commit -m "📚 PDF Export: автоматическая конвертация $(date +'%d.%m.%Y %H:%M')"
+          git push
+          echo "✅ PDF файлы успешно загружены в репозиторий"
+        else
+          echo "ℹ️  Нет изменений для коммита"
+        fi
