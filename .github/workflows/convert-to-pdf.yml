@@ -47,49 +47,50 @@ jobs:
           echo "Created directory: $pdf_dir"
         done
 
-    - name: Convert MD to PDF with proper encoding
+    - name: Create Russian LaTeX template
       run: |
-        # Создаем custom LaTeX template для русского языка
         cat > russian-template.tex << 'EOL'
-        \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$]{$documentclass$}
-        \usepackage{polyglossia}
-        \setdefaultlanguage{russian}
-        \setotherlanguage{english}
-        \usepackage{fontspec}
-        \setmainfont{DejaVu Serif}
-        \setsansfont{DejaVu Sans}
-        \setmonofont{DejaVu Sans Mono}
-        
-        \usepackage{xcolor}
-        \usepackage{hyperref}
-        \hypersetup{
-            colorlinks=true,
-            linkcolor=blue,
-            urlcolor=blue,
-            citecolor=blue
-        }
-        
-        \usepackage{geometry}
-        \geometry{a4paper, margin=2.5cm}
-        
-        \title{$title$}
-        \author{$author$}
-        \date{$date$}
-        
-        \begin{document}
-        
-        \maketitle
-        
-        $if(toc)$
-        \tableofcontents
-        \newpage
-        $endif$
-        
-        $body$
-        
-        \end{document}
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$]{$documentclass$}
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+
+\title{$title$}
+\author{$author$}
+\date{$date$}
+
+\begin{document}
+
+\maketitle
+
+$if(toc)$
+\tableofcontents
+\newpage
+$endif$
+
+$body$
+
+\end{document}
 EOL
 
+    - name: Convert MD to PDF with proper encoding
+      run: |
         # Функция для безопасного конвертирования
         convert_with_retry() {
           local md_file="$1"
@@ -121,8 +122,7 @@ EOL
             --toc \
             --toc-depth=3 \
             -N \
-            --wrap=auto \
-            --verbose
+            --wrap=auto
           
           local result=$?
           set -e
@@ -158,11 +158,16 @@ EOL
       run: |
         # Проверяем что PDF создались
         echo "📊 Результаты конвертации:"
-        find _pdf_export -name "*.pdf" -type f | wc -l | xargs echo "Создано PDF файлов:"
+        pdf_count=$(find _pdf_export -name "*.pdf" -type f | wc -l)
+        echo "Создано PDF файлов: $pdf_count"
         
         # Показываем структуру
         echo "📁 Структура папок:"
-        tree _pdf_export -L 3 || find _pdf_export -type d | head -20
+        if command -v tree &> /dev/null; then
+          tree _pdf_export -L 3
+        else
+          find _pdf_export -type d | head -20
+        fi
 
     - name: Commit and push PDF files
       run: |
