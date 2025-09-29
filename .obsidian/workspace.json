@@ -11,14 +11,14 @@
             "id": "3a138fe782a54e42",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Digital Garden/Garden Map.md",
-                "mode": "source",
-                "source": false
+                "aFile": "01_Subjects/Деньги. Кредит. Банки/Лекция 1 03.09.md",
+                "bFile": "01_Subjects/Деньги. Кредит. Банки/Лекция 1 03.09.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Garden Map"
+              "icon": "diff",
+              "title": "Diff: Лекция 1 03.09"
             }
           }
         ]
@@ -184,10 +184,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3a138fe782a54e42",
+  "active": "235fd1ef2485e1a7",
   "lastOpenFiles": [
-    "Привет.md",
     "Digital Garden/Garden Map.md",
+    "Привет.md",
     "Digital Garden",
     "01 Предметы/Тетс/привет.md",
     "01 Предметы/Тетс",
