@@ -6,5 +6,6 @@
   "templater-obsidian",
   "quickadd",
   "dataview",
-  "remotely-save"
+  "remotely-save",
+  "editing-toolbar"
 ]
