@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "26a64cdb56b5e001",
+        "id": "472997f4ed0873c6",
         "type": "tabs",
         "children": [
           {
-            "id": "3a138fe782a54e42",
+            "id": "53f754316e1d520c",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "01_Subjects/Деньги. Кредит. Банки/Лекция 1 03.09.md",
-                "bFile": "01_Subjects/Деньги. Кредит. Банки/Лекция 1 03.09.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Лекция 1 03.09"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -184,7 +180,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a91f2eb0bd835c4f",
+  "active": "235fd1ef2485e1a7",
   "lastOpenFiles": [
     "Привет.md",
     "Digital Garden/Garden Map.md",
