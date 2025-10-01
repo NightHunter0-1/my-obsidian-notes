@@ -1,6 +1,8 @@
 ---
-tags: subject
-created: {{date}}
+tags:
+  - subject
+created:
+  "{ date }":
 ---
 
 # {{title}}
@@ -19,7 +21,7 @@ SORT file.name
 ## 🔗 Связи
 - **Преподаватель**:: 
 - **Семестр**:: 
-- **Статус**:: #active 
+- **Статус**:: 
 
 ## 📌 Быстрые заметки
 
