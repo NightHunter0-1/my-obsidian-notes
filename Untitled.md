@@ -110,3 +110,6 @@ file_created: 2025-10-27
 - **to have dire consequences:** To have very serious, terrible, or disastrous results.
     
     - _Example: "A small error in the software could **have dire consequences** for the entire system."_
+
+
+![[ДЗ английский 27-10-2025.excalidraw.png]]

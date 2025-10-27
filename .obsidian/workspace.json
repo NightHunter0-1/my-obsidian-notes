@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "1bda5023bad82618",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/ДЗ английский 27-10-2025.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ДЗ английский 27-10-2025.excalidraw"
+            }
           }
         ]
       }
@@ -166,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,8 +199,15 @@
   },
   "active": "6f81efdb095eef94",
   "lastOpenFiles": [
-    "01 Предметы/Английский язык/Домашнее задание 27-10-2025.md",
+    "Excalidraw/ДЗ английский 27-10-2025.excalidraw.md",
+    "Pasted Image 20251027233201_116.png",
+    "Pasted Image 20251027233042_577.png",
+    "Excalidraw/ДЗ английский 27-10-2025.excalidraw.png",
+    "Excalidraw/Drawing 2025-10-27 23.23.17.excalidraw.png",
+    "Pasted Image 20251027232322_997.png",
     "Untitled.md",
+    "Pasted image 20251027232304.png",
+    "01 Предметы/Английский язык/Домашнее задание 27-10-2025.md",
     "Пека.md",
     "Pasted image 20251015193901.png",
     "Pasted image 20251015193923.png",
@@ -197,12 +217,6 @@
     "01 Предметы/Экономика организации (Предприятия)/Лекция 7 23-10-2025.md",
     "01 Предметы/Микроэкономика Экономическая теория Микроэкономика/Лекция 8 23-10-2025.md",
     "01 Предметы/Менеджмент. Управление организацией (предприятием)/Лекция 6 20-10-2025.md",
-    "PNG/IMG20251016110006.jpg",
-    "PNG/IMG20251016103003.jpg",
-    "PNG/IMG20251016111509.jpg",
-    "PNG/IMG20251016104103.jpg",
-    "PNG/IMG20251016113349.jpg",
-    "PNG/IMG20251016110733.jpg",
     "02 Excalidraw/Microeconimics 16-10-2025.excalidraw.md",
     "02 Excalidraw/Drawing 2025-10-16 10.21.56.excalidraw.md",
     "02 Excalidraw/Drawing 2025-10-16 14.52.29.excalidraw.md",
@@ -223,8 +237,6 @@
     "Excalidraw",
     "2025-09-29.md",
     "Без названия.md",
-    "Test autosync.md",
-    "02 Excalidraw/Ecorg_SEM_2025-10-09 .excalidraw.md",
     "PNG",
     "Digital Garden",
     "01 Предметы/Тетс",
