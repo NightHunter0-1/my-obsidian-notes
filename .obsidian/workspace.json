@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Сценарий менеджмент .md",
+                "file": "тест.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Сценарий менеджмент"
+              "title": "тест"
             }
           },
           {
@@ -196,8 +196,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a91f2eb0bd835c4f",
+  "active": "6f81efdb095eef94",
   "lastOpenFiles": [
+    "Сценарий менеджмент .md",
+    "тест.md",
     "workflows/deploy.yml",
     "workflows/привет.md",
     "PNG/Pasted image 20251027232304.png",
@@ -207,12 +209,10 @@
     "Untitled 2.base",
     "Untitled.base",
     "PNG/Pasted Image 20251027232322_997.png",
-    "Сценарий менеджмент .md",
     "01-Subjects/Английский язык/ДЗ 28-10-2025.md",
     "01-Subjects/Английский язык/Домашнее задание 27-10-2025.md",
     "02-Excalidraw/Drawing 2025-10-28 09.09.45.excalidraw.md",
     "PNG/1000030331.png",
-    "Untitled.md",
     "Excalidraw/ДЗ английский 27-10-2025.excalidraw.md",
     "PNG/Pasted Image 20251027233201_116.png",
     "PNG/Pasted Image 20251027233042_577.png",
@@ -243,7 +243,6 @@
     "Excalidraw/Scripts",
     "Excalidraw",
     "PNG",
-    "Digital Garden",
     "Без названия.canvas"
   ]
 }
