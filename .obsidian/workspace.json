@@ -11,12 +11,14 @@
             "id": "6f81efdb095eef94",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "PNG/Pasted image 20251027232304.png"
+                "file": "Сценарий менеджмент .md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251027232304"
+              "icon": "lucide-file",
+              "title": "Сценарий менеджмент"
             }
           },
           {
@@ -194,14 +196,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a91f2eb0bd835c4f",
+  "active": "6f81efdb095eef94",
   "lastOpenFiles": [
+    "workflows/привет.md",
+    "PNG/Pasted image 20251027232304.png",
     "build_blog.py",
     "workflows",
     "Untitled 1.base",
     "Untitled 2.base",
     "Untitled.base",
-    "PNG/Pasted image 20251027232304.png",
     "PNG/Pasted Image 20251027232322_997.png",
     "Сценарий менеджмент .md",
     "01-Subjects/Английский язык/ДЗ 28-10-2025.md",
@@ -235,13 +238,11 @@
     "01-Subjects/Английский язык/Семинар 14-10-2025.md",
     "01-Subjects/Деньги. Кредит. Банки/Лекция 7 15-10-2025.md",
     "01-Subjects/Введение в специальность/Лекция 4 15-10-2025.md",
-    "01-Subjects/Экономика организации (Предприятия)/Ecorg_HW_12-10-2025.excalidraw.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
     "PNG",
     "Digital Garden",
-    "01 Предметы/Тетс",
     "Без названия.canvas"
   ]
 }
