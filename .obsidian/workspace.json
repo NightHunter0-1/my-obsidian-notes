@@ -196,8 +196,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6f81efdb095eef94",
+  "active": "a91f2eb0bd835c4f",
   "lastOpenFiles": [
+    "workflows/deploy.yml",
     "workflows/привет.md",
     "PNG/Pasted image 20251027232304.png",
     "build_blog.py",
