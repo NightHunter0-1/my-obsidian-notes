@@ -6,7 +6,7 @@ from pathlib import Path
 from slugify import slugify
 
 # === НАСТРОЙКИ ===
-VAULT_PATH = "01-Subjects"  # ← Путь к папке с лекциями внутри репозитория
+VAULT_PATH = "01-Subjects"  # ← Путь к папке с лекциями
 OUTPUT_DIR = "blog"
 SITE_TITLE = "Мои лекции"
 
@@ -193,7 +193,7 @@ def main():
             dest.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(img_file, dest)
 
-    # Собираем все .md файлы
+    # Собираем все .md файлы рекурсивно
     md_files = list(vault_path.rglob("*.md"))
     if not md_files:
         print("⚠️ Нет .md файлов для обработки!")
@@ -231,4 +231,35 @@ def main():
         # Генерируем слаг и путь
         slug = slugify(title)
         rel_dir = md_file.parent.relative_to(vault_path)
-       
+        html_file = output_path / rel_dir / f"{slug}.html"
+        html_file.parent.mkdir(parents=True, exist_ok=True)
+
+        # Хлебные крошки
+        breadcrumb = generate_breadcrumb(md_file.relative_to(vault_path), vault_path)
+
+        # Сохраняем HTML
+        full_html = HTML_TEMPLATE.format(
+            page_title=title,
+            site_title=SITE_TITLE,
+            breadcrumb=breadcrumb,
+            content=html_body
+        )
+        with open(html_file, "w", encoding="utf-8") as f:
+            f.write(full_html)
+
+        all_pages.append((title, rel_dir / f"{slug}.html"))
+
+    # Генерируем index.html для каждой папки
+    print("🗂️ Создаю индексы папок...")
+    folders = {vault_path}
+    for md_file in md_files:
+        folders.add(md_file.parent)
+
+    for folder in sorted(folders):
+        build_folder_index(output_path, folder, vault_path)
+
+    print(f"\n✅ Готово! Сайт сохранён в: {output_path.absolute()}")
+    print(f"Открой: {output_path.absolute() / 'index.html'}")
+
+if __name__ == "__main__":
+    main()
