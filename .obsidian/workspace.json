@@ -194,8 +194,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "235fd1ef2485e1a7",
+  "active": "a91f2eb0bd835c4f",
   "lastOpenFiles": [
+    "build_blog.py",
     "workflows",
     "Untitled 1.base",
     "Untitled 2.base",
@@ -241,7 +242,6 @@
     "PNG",
     "Digital Garden",
     "01 Предметы/Тетс",
-    "Без названия.base",
     "Без названия.canvas"
   ]
 }
