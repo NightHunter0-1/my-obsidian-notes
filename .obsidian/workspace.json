@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Сценарий менеджмент .md",
+                "file": "Сценарий менеджмент.md",
                 "mode": "source",
                 "source": false
               },
@@ -193,15 +193,16 @@
       "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "a91f2eb0bd835c4f",
+  "active": "6f81efdb095eef94",
   "lastOpenFiles": [
     "02 Excalidraw/Drawing 2025-10-28 23.46.14.excalidraw.md",
     "02 Excalidraw",
     "тест.md",
-    "Сценарий менеджмент .md",
+    "Сценарий менеджмент.md",
     "workflows/deploy.yml",
     "workflows/привет.md",
     "PNG/Pasted image 20251027232304.png",
