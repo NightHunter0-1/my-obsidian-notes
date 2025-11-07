@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "02-Excalidraw/Введение в специальность 1.excalidraw.md"
+                "file": "01-Subjects/Введение в специальность/Введение в специальность 1.excalidraw.md"
               },
               "icon": "excalidraw-icon",
               "title": "Введение в специальность 1.excalidraw"
@@ -195,8 +195,14 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "6f81efdb095eef94",
+  "active": "235fd1ef2485e1a7",
   "lastOpenFiles": [
+    "01-Subjects/Введение в специальность/Введение в специальность 1.excalidraw.png",
+    "01-Subjects/Микроэкономика Экономическая теория Микроэкономика/микроэкономика 02-10-2025.excalidraw.md",
+    "02-Excalidraw/микроэкономика 2.excalidraw.md",
+    "01-Subjects/Деньги. Кредит. Банки/Дкб_сем_15-10-2025.excalidraw.md",
+    "01-Subjects/Введение в специальность/Введение в специальность 1.excalidraw.md",
+    "01-Subjects/Экономика организации (Предприятия)/Ecorg_HW_12-10-2025.excalidraw.md",
     "02-Excalidraw/Drawing 2025-10-16 10.21.56.excalidraw.md",
     "02-Excalidraw/Drawing 2025-10-15 17.41.27.excalidraw.md",
     "02-Excalidraw/Drawing 2025-10-02 12.30.20.excalidraw.md",
@@ -214,7 +220,6 @@
     "02-Excalidraw/Microeconomic_Sem_2025-10-09.excalidraw.md",
     "02-Excalidraw/Microeconomics_Sem_2025-10-16.excalidraw.md",
     "02-Excalidraw/PravoTable1.excalidraw.md",
-    "02-Excalidraw/микроэкономика 2.excalidraw.md",
     "PNG/IMG_20251106_102607.jpg",
     "PNG/IMG20251106103900.jpg",
     "PNG/IMG20251106103410.jpg",
@@ -223,18 +228,12 @@
     "02 Excalidraw/Микроэкономика семинар 06-11-2025.excalidraw.md",
     "01-Subjects/Микроэкономика Экономическая теория Микроэкономика/Лекция 10 06-11-2025.md",
     "01-Subjects/Экономика организации (Предприятия)/Лекция 10 06-11-2025.md",
-    "01-Subjects/Микроэкономика Экономическая теория Микроэкономика/Микроэкономика Экономическая теория Микроэкономика.md",
-    "02-Excalidraw/микроэкономика 02-10-2025.excalidraw.md",
-    "02-Excalidraw/Дкб_сем_15-10-2025.excalidraw.md",
-    "02 Excalidraw/Экорг 30-10-2025.excalidraw.md",
-    "01-Subjects/Экономика организации (Предприятия)/Ecorg_HW_12-10-2025.excalidraw.md",
     "PNG/IMG20251030113134.jpg",
     "PNG/IMG20251030102515.jpg",
     "PNG/IMG20251030104118.jpg",
     "PNG/IMG_20251030_105338.jpg",
     "02 Excalidraw",
     "workflows/deploy.yml",
-    "PNG/Pasted image 20251027232304.png",
     "build_blog.py",
     "workflows",
     "Untitled 1.base",
