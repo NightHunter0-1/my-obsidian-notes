@@ -32,8 +32,21 @@
               "icon": "excalidraw-icon",
               "title": "ДЗ английский 27-10-2025.excalidraw"
             }
+          },
+          {
+            "id": "d630650f5ce300ac",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,7 +210,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "a91f2eb0bd835c4f",
+  "active": "d630650f5ce300ac",
   "lastOpenFiles": [
     "01-Subjects/Микроэкономика Экономическая теория Микроэкономика/Лекция 15 11-12-2025.md",
     "01-Subjects/Введение в специальность/Лекция 5 10-12-2025.md",
