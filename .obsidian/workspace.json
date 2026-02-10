@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "135d745917f7db5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "eccbce587aac4138",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e85cd32985f493f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Subject Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Subject Template"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f197eda5b8a85296",
+    "type": "split",
+    "children": [
+      {
+        "id": "00139924c56e2013",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43b07b5f671fdd04",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6bf7dbc65482b3ec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1589e704a99f9abd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ec9e240dfc012044",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a1f3aef3d50fa11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bdb5591b4420869",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a338853947b25a0f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "8dee61de60f0d524",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c3fc6ed111c31cae",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9f6b18abe885e351",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "e85cd32985f493f8",
+  "lastOpenFiles": [
+    "Templates/ЭКОРГ шаблон.md",
+    "Templates/Универсальная лекция шаблон.md",
+    "Templates/Универсальная лекция.md",
+    "Без названия.md",
+    "Без названия 2.md",
+    "01-Subjects/Сем 4 Весна 2026/Философия/Лекция 1 10.02.2026.md",
+    "01-Subjects/Сем 4 Весна 2026/Введение в специальность/Лекция 1 09.02.2026.md",
+    "01-Subjects/Сем 4 Весна 2026/Введение в специальность/Введение в специальность.md",
+    "01-Subjects/Сем 4 Весна 2026/Философия/Философия.md",
+    "01-Subjects/Сем 3 Осень 2025/Введение в специальность/Лекция 1 03-09-2025.md",
+    "Сценарий менеджмент.md",
+    "тест.md",
+    "Welcome.md",
+    "01-Subjects/Сем 3 Осень 2025/Введение в специальность/Введение в специальность.md",
+    "01-Subjects/Сем 4 Весна 2026/Введение в специальность",
+    "01-Subjects/Сем 4 Весна 2026",
+    "01-Subjects/Сем 3 Осень 2025",
+    "PNG/1000022330.jpg",
+    "build_blog.py",
+    "PNG/1000029994.jpg",
+    "Без названия 1.md",
+    "PNG/1000030331.png",
+    "03-PNG/1000021523.png",
+    "Новый документ.docx",
+    "03-PNG/1000021513.png",
+    "03-PNG/1000021522.png",
+    "PNG/IMG20251016110006.jpg",
+    "03-PNG/1000021525.png",
+    "03-PNG/1000021486.png",
+    "03-PNG/1000021524.png",
+    "01-Subjects/Сем 3 Осень 2025/История экономических учений/History of econimic.excalidraw.md",
+    "01-Subjects/Сем 3 Осень 2025/Менеджмент. Управление организацией (предприятием)/Менеджмент.md",
+    "01-Subjects/Сем 3 Осень 2025/Микроэкономика Экономическая теория Микроэкономика/Лекция 1 04-09-2025.md",
+    "01-Subjects/Сем 3 Осень 2025/Менеджмент. Управление организацией (предприятием)/Лекция 4 29-09-2025.md",
+    "Templates/Subject Template.md",
+    "02-Excalidraw/PravoTable1.excalidraw.md",
+    "01-Subjects/Сем 3 Осень 2025/Английский язык/Семинар_1.md",
+    "02-Excalidraw/Ecorg table 2.excalidraw.md",
+    "02-Excalidraw/Ecorg table 3.excalidraw.md",
+    "02-Excalidraw/Ecoerg table 1.excalidraw.md",
+    "02-Excalidraw/Ecorg table 3.excalidraw 1.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "01-Subjects/Сем 4 Весна 2026/Философия",
+    "01-Subjects/Сем 3 Осень 2025/Английский язык",
+    "01-Subjects/Сем 3 Осень 2025/Деньги. Кредит. Банки"
+  ]
+}
