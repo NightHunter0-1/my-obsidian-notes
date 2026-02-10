@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Subject Template.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subject Template"
+              "title": "Untitled"
             }
           }
         ]
@@ -161,16 +161,27 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "cbd279ca285cab45",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,6 +194,8 @@
   },
   "active": "e85cd32985f493f8",
   "lastOpenFiles": [
+    "Templates/Subject Template.md",
+    "Untitled.md",
     "Templates/ЭКОРГ шаблон.md",
     "Templates/Универсальная лекция шаблон.md",
     "Templates/Универсальная лекция.md",
@@ -217,13 +230,11 @@
     "01-Subjects/Сем 3 Осень 2025/Менеджмент. Управление организацией (предприятием)/Менеджмент.md",
     "01-Subjects/Сем 3 Осень 2025/Микроэкономика Экономическая теория Микроэкономика/Лекция 1 04-09-2025.md",
     "01-Subjects/Сем 3 Осень 2025/Менеджмент. Управление организацией (предприятием)/Лекция 4 29-09-2025.md",
-    "Templates/Subject Template.md",
     "02-Excalidraw/PravoTable1.excalidraw.md",
     "01-Subjects/Сем 3 Осень 2025/Английский язык/Семинар_1.md",
     "02-Excalidraw/Ecorg table 2.excalidraw.md",
     "02-Excalidraw/Ecorg table 3.excalidraw.md",
     "02-Excalidraw/Ecoerg table 1.excalidraw.md",
-    "02-Excalidraw/Ecorg table 3.excalidraw 1.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "01-Subjects/Сем 4 Весна 2026/Философия",
